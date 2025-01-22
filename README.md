@@ -138,6 +138,13 @@ For more details, see the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ---
 
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/7a64793e-7265-4f80-92ad-b3305b32849c)
+
+
+---
+
 ## License
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**. You are free to share, adapt, and modify the project for non-commercial purposes, provided that you give appropriate credit to the original creator (Dharmin Joshi/DevKay). Commercial use of this project is not permitted.
