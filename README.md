@@ -1,6 +1,7 @@
 # DChat-Real-time-chat-App-By-DevKay
 
-![Node.js](https://img.shields.io/badge/Node.js-v16+-brightgreen) ![Socket.io](https://img.shields.io/badge/Socket.io-v4-blue) ![MIT License](https://img.shields.io/badge/license-MIT-green)
+![Node.js](https://img.shields.io/badge/Node.js-v16+-brightgreen) ![Socket.io](https://img.shields.io/badge/Socket.io-v4-blue) [![CC BY-NC 4.0](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 
 A real-time chat application built with **Node.js**, **Express**, and **Socket.io**. It supports typing indicators, private messaging, and live user list management.
 
