@@ -1,0 +1,135 @@
+/* Basic styles for chat */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+nav {
+    background-color: #4CAF50;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+.user-count {
+    font-size: 14px;
+    color: white;
+}
+
+.container {
+    padding: 10px;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.message {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    word-wrap: break-word;
+    box-sizing: border-box; /* Ensure the padding and other properties do not affect the size */
+}
+
+/* Message alignments */
+.left {
+    background-color: #f1f1f1;
+    text-align: left;
+    align-self: flex-start;
+    padding-bottom: 20px;  /* Add space for timestamp */
+}
+
+.right {
+    background-color: #4CAF50;
+    color: white;
+    text-align: right;
+    margin-left: auto;
+    align-self: flex-end;
+    padding-bottom: 20px;  /* Add space for timestamp */
+    position: relative;    /* Allow timestamp to be inside */
+    padding-right: 25px;   /* Ensure space for the timestamp on the right */
+}
+
+/* Styling for timestamp */
+.timestamp {
+    font-size: 0.75em;  /* Smaller font size */
+    color: #000000;        /* Light gray color */
+    position: absolute;
+    bottom: 5px;        /* Space from the bottom of the message */
+    right: 10px;        /* Align to the right of the message */
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: right;  /* Align text to the right */
+    z-index: 1;         /* Ensure it appears above the message */
+}
+
+/* Styling for private messages */
+.private-message {
+    background-color: #FFD700;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 15px; /* Add some space below private messages */
+}
+
+/* Typing indicator styles */
+.typing {
+    font-size: 16px;
+    color: #4CAF50;
+    font-weight: bold;
+    background-color: rgba(0, 123, 255, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: max-content;
+    animation: blink-caret 1s infinite step-end;
+}
+
+/* Button styles */
+button {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* User List Styling */
+.user-list {
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.user-list div {
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.user-list div:hover {
+    background-color: #f1f1f1;
+}
