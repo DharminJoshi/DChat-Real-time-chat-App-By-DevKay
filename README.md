@@ -139,6 +139,17 @@ For more details, see the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ---
 
+## Future Enhancements
+
+We are actively working on new features to improve **DChat-Real-time-chat-App-By-DevKay**:
+- **OAuth2 Authentication**: Enable secure user login through Google, Facebook, and more.
+- **MongoDB Integration**: Store chat history and user data in a scalable database.
+- **User Profiles**: Add personalized profiles for each user.
+- **Media Sharing**: Allow users to share images, videos, and files.
+- **Theme Customization**: Provide light/dark mode and customizable themes.
+
+---
+
 ## Screenshots
 
 ![image](https://github.com/user-attachments/assets/7a64793e-7265-4f80-92ad-b3305b32849c)
@@ -163,17 +174,6 @@ All trademarks, logos, and brand names mentioned or used in this project are the
 The project is provided "as is" without any warranties, express or implied. The creator of this project is not responsible for any direct or indirect consequences arising from its use.
 
 This project belongs to **DharminJoshi/DevKay** and is hosted on GitHub.
-
----
-
-## Future Enhancements
-
-We are actively working on new features to improve **DChat-Real-time-chat-App-By-DevKay**:
-- **OAuth2 Authentication**: Enable secure user login through Google, Facebook, and more.
-- **MongoDB Integration**: Store chat history and user data in a scalable database.
-- **User Profiles**: Add personalized profiles for each user.
-- **Media Sharing**: Allow users to share images, videos, and files.
-- **Theme Customization**: Provide light/dark mode and customizable themes.
 
 ---
 
